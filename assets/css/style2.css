@@ -1,0 +1,36 @@
+
+:root {
+    --main-bg: #1B282E;
+    --contrast-bg: #2C3034;
+    --light-color: #293C45;
+    --darker-color: #1E2C32;
+  }
+
+body {
+    background-color:var(--main-bg)!important ;
+}
+
+img {
+    max-width: 500px !important;
+}
+input {
+    background-color: var(--light-color)!important;
+    color: white !important;
+}
+.card {
+    margin: 10px;
+    background-color: var(--contrast-bg) !important;
+    color: white !important;
+    max-width: 400px !important;
+
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+}
+
+.inputs {
+    width: 90% !important;
+    margin: auto;
+}

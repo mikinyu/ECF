@@ -1,0 +1,103 @@
+/* TODO */
+/* Variables  */
+
+:root {
+    --main-bg: #1B282E;
+    --contrast-bg: #2C3034;
+    --light-color: #293C45;
+    --darker-color: #1E2C32;
+  }
+
+body {
+     background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    background-color: var(--main-bg) !important;
+    color: white !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.topsection {
+    background-image: url(../img/ticket-2974645_960_720.jpg);
+    background-size: contain;
+    border-radius: 20px;
+    padding: 20px !important;
+}
+
+.messageAttention {
+    background-color: var(--main-bg);
+    opacity: 0.7;
+    border-radius: 20px;
+    margin: 20px;
+    font-weight: bold;
+}
+/* Partie input */
+.inputs, .selection, .topsection {
+   margin: 20px;
+}
+.inputs, h1, .selection {
+    background-color: var(--main-bg);
+    opacity: 0.7;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    max-width: 100px;
+}
+
+/* tableau */
+table {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+    color: white !important;
+}
+
+th, tr {
+    
+    opacity: 0.9;
+    background-color: var(--darker-color) !important;
+    border-bottom: solid 2px var(--light-color) !important;
+}
+/* Boutons */
+button.ajouter {
+    margin-left: 30px;
+    background-color: var(--darker-color);
+    color: white;
+    opacity: 0.9;
+    border: solid 2px white;
+}
+
+button.delete{
+    background-color: #A85459;
+    color: white;                   
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Responsive */
+
+@media  screen and (max-width: 960px) {
+      .inputs {        
+        white-space: pre;
+      }
+}
+@media  screen and (max-width: 560px) {
+  input, select {
+    width: 100% !important;
+  }
+}
+

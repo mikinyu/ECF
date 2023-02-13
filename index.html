@@ -1,0 +1,54 @@
+<!-- Le travail étant fait individuellement 
+    j'ai mis beaucoup plus de temps, 
+    j'ai donc priorisé ce qui me semblait possible à faire 
+    avec mon retard de connaissances. 
+    Pour le tableau j'ai essayé plusieurs méthodes 
+    pour pouvoir rajouter le bouton supprimé, 
+    j'ai gardé en fichier additionnel le "meilleur" 
+    résultat que j'ai pu obtenir -->
+
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Médiatèque</title>
+    <!-- links -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/normalize.css" /> -->
+    <!-- <script src="table-sort.js"></script> -->
+    <script src="./assets/js/app.js" defer></script>
+
+    <script
+      src="https://kit.fontawesome.com/1455499bae.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- TODO -->
+    <section class="topsection container-sm">
+      <h1><i class="fa-solid fa-film"> </i> Liste des films</h1>
+      <button class="btn ajouter" id="ajouter">
+        <i class="fa-solid fa-plus"> </i>
+        Ajouter
+      </button>
+
+      <div class="messageAttention text-center" id="attention"></div>
+      <div id="afficheInput"></div>
+    </section>
+
+    <section class="container-sm" id="film">
+      <table class="table-sort table text-center align-text-bottom container-fluid" id="table">
+        <!-- <tr class="styleInput" id="inputInTable"></tr> -->
+      </table>
+    </section>
+
+    <footer>
+      <a href="deleteButton.html" class="card-footer text-muted"
+        >Lien vers le début de code pour les boutons delete</a
+      >
+    </footer>
+  </body>
+</html>
